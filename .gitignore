@@ -1,0 +1,79 @@
+
+# Created by https://www.toptal.com/developers/gitignore/api/concrete5,macos
+# Edit at https://www.toptal.com/developers/gitignore?templates=concrete5,macos
+
+### Concrete5 ###
+# ignore the error log and .htaccess and others
+error_log
+.htaccess
+
+# concrete5 5.6 specific
+
+config/site.php
+files/cache/*
+files/tmp/*
+
+# concrete5 5.7 specific
+
+# ignore everything but the index.html
+/application/files/*
+!/application/files/index.html
+
+# ignore updates folder
+/updates/*
+
+# ignore sitemap.xml
+/sitemap.xml
+
+# Concrete5 General
+/application/files/cache/*
+/application/files/tmp/*
+/application/files/*
+!/application/files/index.html
+/application/wpfiles/*
+!/application/wpfiles/index.html
+/docs/*
+/updates/*
+
+/application/tools/tcpdf/*
+
+/application/config/database.php
+/application/config/restrict_login.php
+/application/config/generated_overrides/*
+!/application/config/generated_overrides/index.html
+
+/packages/search/solr-*/*
+
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# End of https://www.toptal.com/developers/gitignore/api/concrete5,macos
+/.nova/*
+/*.map
