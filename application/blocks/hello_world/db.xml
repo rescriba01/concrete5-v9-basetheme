@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btHelloWorld">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="field1" type="X2">
+			<default value="" />
+		</field>
+		<field name="field2" type="X2">
+			<default value="" />
+		</field>
+		<field name="booleanfield" type="I1" size="1">
+			<default value="0" />
+		</field>
+	</table>
+</schema>
